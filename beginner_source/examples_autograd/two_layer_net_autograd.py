@@ -60,6 +60,7 @@ for t in range(500):
     # Manually update weights using gradient descent. Wrap in torch.no_grad()
     # because weights have requires_grad=True, but we don't need to track this
     # in autograd.
+    # ?? no_grad sets all the required grad flags to false. why does it matter here
     # An alternative way is to operate on weight.data and weight.grad.data.
     # Recall that tensor.data gives a tensor that shares the storage with
     # tensor, but doesn't track history.
