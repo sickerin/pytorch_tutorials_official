@@ -36,7 +36,7 @@ by Jeremy Howard, `fast.ai <https://www.fast.ai>`_. Thanks to Rachel Thomas and 
 # for dealing with paths (part of the Python 3 standard library), and will
 # download the dataset using
 # `requests <http://docs.python-requests.org/en/master/>`_. We will only
-# import modules when we use them, so you can see exactly what's being
+# import modules when we use them, so yvou can see exactly what's being
 # used at each point.
 
 from pathlib import Path
